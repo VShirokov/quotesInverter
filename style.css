@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    height: 80vh;
+}
+textarea {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+textarea:first-child {
+    margin-right: 20px;
+}
+textarea:last-child {
+    margin-left: 20px;
+}
+.form {
+    display: flex;
+    width: 100%;
+}
+.buttons-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    height: 40px;
+}
