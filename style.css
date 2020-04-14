@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-flow: column nowrap;
     height: 80vh;
 }
 textarea {
@@ -15,6 +16,7 @@ textarea:last-child {
 }
 .form {
     display: flex;
+    height: 100%;
     width: 100%;
 }
 .buttons-wrapper {
